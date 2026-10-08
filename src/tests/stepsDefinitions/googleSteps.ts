@@ -22,7 +22,7 @@ const testData = JSON.parse(
 
 // Launch browser
 Before(async function () {
-  browser = await chromium.launch({ headless: false });
+  browser = await chromium.launch({ headless: process.env.CI === 'true' });
   page = await browser.newPage();
 });
 
