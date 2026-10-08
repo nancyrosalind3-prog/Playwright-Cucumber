@@ -1,0 +1,26 @@
+{
+  "validContact": {
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@example.com",
+    "comments": "Testing Playwright Cucumber BDD"
+  },
+  "anotherContact": {
+    "firstName": "Mary",
+    "lastName": "Johnson",
+    "email": "mary.johnson@example.com",
+    "comments": "Learning data-driven testing"
+  },
+  "invalidEmail": {
+    "firstName": "David",
+    "lastName": "Brown",
+    "email": "invalid-email",
+    "comments": "Testing invalid email validation"
+  },
+  "missingEmail": {
+    "firstName": "Sarah",
+    "lastName": "Wilson",
+    "email": "",
+    "comments": "Testing mandatory email validation"
+  }
+}

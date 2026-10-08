@@ -1,0 +1,11 @@
+{
+  "playwright.reuseBrowser": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "cucumber.features": [
+    "src/tests/features/*.feature"
+  ],
+  "cucumber.glue": [
+    "src/tests/stepsDefinitions/*.ts"
+  ],
+  "cucumber.parameterTypes": []
+}

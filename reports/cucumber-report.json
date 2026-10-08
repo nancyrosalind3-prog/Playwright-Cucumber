@@ -1,0 +1,329 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "contact-form-data-driven-testing;submit-valid-contact-form-data",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Submit valid contact form data",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2068515124
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1296477292
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Contact Us page",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:35"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 96033625
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I fill the contact form using \"validContact\" data",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 57682541
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click the Submit button",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:67"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 8010750
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the contact form success message",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:72"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 140567500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-data-driven-testing;submit-valid-contact-form-data",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Submit valid contact form data",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 959902583
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1376733915
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Contact Us page",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:35"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 50199582
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I fill the contact form using \"anotherContact\" data",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 44807374
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click the Submit button",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:67"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3123625
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the contact form success message",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:72"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 89663500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-data-driven-testing;submit-invalid-contact-form-data",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Submit invalid contact form data",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 602814292
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1296611124
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I navigate to the Contact Us page",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:35"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 50241208
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I fill the contact form using \"invalidEmail\" data",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 36181124
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click the Submit button",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:67"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3213583
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should see a contact form validation error",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:82"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 95654209
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "contact-form-data-driven-testing;submit-invalid-contact-form-data",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Submit invalid contact form data",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 863242624
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1461414457
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I navigate to the Contact Us page",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:35"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 64909249
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I fill the contact form using \"missingEmail\" data",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:42"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 40006250
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click the Submit button",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:67"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 65922958
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should see a contact form validation error",
+            "match": {
+              "location": "src/tests/stepsDefinitions/googleSteps.ts:82"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 85067457
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "contact-form-data-driven-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Contact Form Data Driven Testing",
+    "tags": [],
+    "uri": "src/tests/features/googleFeature.feature"
+  }
+]
